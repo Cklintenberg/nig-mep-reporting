@@ -1,0 +1,959 @@
+{
+  "Engineering": {
+    "pack": {
+      "report_type": "Engineering",
+      "label": "Weekly report from uploaded meeting material",
+      "week_start": "2026-09-28",
+      "sources": [
+        {
+          "id": "DOC01-01",
+          "kind": "context",
+          "date": null,
+          "title": "partner-call.vtt · part 1",
+          "text": "WEBVTT\n\n00:00:04.000 --> 00:00:16.000\nMaya (BD): Let's cover partner feedback for the week of 28 September. Luca, what are you hearing?\n\n00:00:17.000 --> 00:00:33.000\nLuca (Swisscom): Our partner managers are struggling to follow up with customers because the usage analytics arrive late. Fresher reporting would help. We'd also like to understand how fresh the data actually is.\n\n00:00:34.000 --> 00:00:42.000\nMaya (BD): Do we know whether that has caused lost revenue?\n\n00:00:43.000 --> 00:00:50.000\nLuca (Swisscom): No. We haven't measured any revenue loss. Please don't put a revenue number against this.\n\n00:00:51.000 --> 00:01:08.000\nSara (Vodafone): On our side, we need a clearer onboarding checklist. It's hard to see which application providers have finished each step.\n\n00:01:09.000 --> 00:01:18.000\nMaya (BD): I'll bring that request to the engineering review. We haven't agreed a delivery date or committed engineering resources for it."
+        },
+        {
+          "id": "DOC02-01",
+          "kind": "context",
+          "date": null,
+          "title": "engineering-notes.docx · part 1",
+          "text": "Engineering review notes\n\nWeek of 28 September 2026 — fictional meeting notes\n\nTokyo\n\nKen: We are investigating the analytics delay. We do not know the root cause yet. We will share our investigation findings at the next weekly meeting. No fix date has been agreed.\n\nZurich\n\nAnna: The internal review of the onboarding checklist is finished. We still need partner validation. It has not been released to partners.\n\nItem | Current position\n\nAnalytics fix date | Not agreed"
+        },
+        {
+          "id": "DOC03-01",
+          "kind": "context",
+          "date": null,
+          "title": "vendor-call.srt · part 1",
+          "text": "1\n00:00:03,000 --> 00:00:15,000\nRin (Infrastructure vendor): We're proposing a maintenance window for next month. The exact date hasn't been agreed with NIG yet.\n\n2\n00:00:16,000 --> 00:00:27,000\nMaya (BD): Before we confirm anything, we need the engineering teams to review customer impact and the rollout plan.\n\n3\n00:00:28,000 --> 00:00:42,000\nRin (Infrastructure vendor): Agreed. We'll send the proposed maintenance plan. Please treat it as a proposal, not a booked outage or an approved change."
+        },
+        {
+          "id": "DOC04-01",
+          "kind": "context",
+          "date": null,
+          "title": "Pasted notes.txt · part 1",
+          "text": "My notes for the weekly engineering review — 28 September 2026\n\nCarry-over from last week:\n- BD still needs to check what analytics delay the partners would consider acceptable.\n- Ask for a couple of real examples of the customer follow-up workflows affected.\n- I haven't received anything showing that this action is completed, so keep it open.\n\nDon't assume higher usage means extra revenue. We don't have that evidence.\nThe goal of this report is to make the conversation easier; priorities get agreed in the meeting."
+        }
+      ]
+    },
+    "metrics": [
+      {
+        "key": "weekly_active_users",
+        "label": "Weekly active users",
+        "unit": "users",
+        "previous": 1000.0,
+        "current": 1200.0,
+        "delta": 20.0,
+        "delta_kind": "relative %",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          2,
+          3
+        ]
+      },
+      {
+        "key": "availability",
+        "label": "Platform availability",
+        "unit": "%",
+        "previous": 99.8,
+        "current": 99.9,
+        "delta": 0.1,
+        "delta_kind": "percentage points",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          4,
+          5
+        ]
+      },
+      {
+        "key": "analytics_freshness",
+        "label": "Analytics delay",
+        "unit": "hours",
+        "previous": 24.0,
+        "current": 36.0,
+        "delta": 12.0,
+        "delta_kind": "hours",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          6,
+          7
+        ]
+      },
+      {
+        "key": "api_error_rate",
+        "label": "API error rate",
+        "unit": "%",
+        "previous": 0.4,
+        "current": 0.3,
+        "delta": -0.1,
+        "delta_kind": "percentage points",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          8,
+          9
+        ]
+      }
+    ],
+    "narrative": {
+      "findings": [
+        {
+          "category": "engineering update",
+          "title": "Analytics delay under investigation",
+          "summary": "Engineering is investigating the analytics delay, but the root cause is not known. Findings are expected at the next weekly meeting; no fix date has been agreed.",
+          "evidence": [
+            {
+              "source_id": "DOC02-01",
+              "quote": "We are investigating the analytics delay. We do not know the root cause yet. We will share our investigation findings at the next weekly meeting. No fix date has been agreed."
+            },
+            {
+              "source_id": "DOC02-01",
+              "quote": "Analytics fix date | Not agreed"
+            }
+          ],
+          "needs_review": true,
+          "review_reason": "The root cause remains unknown, and no fix date is agreed."
+        },
+        {
+          "category": "partner feedback",
+          "title": "Swisscom requests fresher analytics and clarity on data freshness",
+          "summary": "Swisscom reports that late usage analytics make customer follow-up difficult. It asks for fresher reporting and clarity on how fresh the data is. The notes also leave open what delay partners would consider acceptable and request examples of affected workflows.",
+          "evidence": [
+            {
+              "source_id": "DOC01-01",
+              "quote": "Our partner managers are struggling to follow up with customers because the usage analytics arrive late. Fresher reporting would help. We'd also like to understand how fresh the data actually is."
+            },
+            {
+              "source_id": "DOC04-01",
+              "quote": "BD still needs to check what analytics delay the partners would consider acceptable."
+            },
+            {
+              "source_id": "DOC04-01",
+              "quote": "Ask for a couple of real examples of the customer follow-up workflows affected."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        },
+        {
+          "category": "open action",
+          "title": "Analytics partner follow-up remains open",
+          "summary": "The notes say there is no evidence that the checks on acceptable delay and affected customer workflows are complete, so these items remain open.",
+          "evidence": [
+            {
+              "source_id": "DOC04-01",
+              "quote": "I haven't received anything showing that this action is completed, so keep it open."
+            },
+            {
+              "source_id": "DOC04-01",
+              "quote": "BD still needs to check what analytics delay the partners would consider acceptable."
+            },
+            {
+              "source_id": "DOC04-01",
+              "quote": "Ask for a couple of real examples of the customer follow-up workflows affected."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        },
+        {
+          "category": "partner feedback",
+          "title": "Vodafone requests a clearer onboarding checklist",
+          "summary": "Vodafone says it is difficult to track which application providers have completed each onboarding step. The internal checklist review is finished, but partner validation is still needed and the checklist has not been released. No delivery date or engineering resources have been agreed.",
+          "evidence": [
+            {
+              "source_id": "DOC01-01",
+              "quote": "On our side, we need a clearer onboarding checklist. It's hard to see which application providers have finished each step."
+            },
+            {
+              "source_id": "DOC01-01",
+              "quote": "We haven't agreed a delivery date or committed engineering resources for it."
+            },
+            {
+              "source_id": "DOC02-01",
+              "quote": "The internal review of the onboarding checklist is finished. We still need partner validation. It has not been released to partners."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        },
+        {
+          "category": "risk",
+          "title": "Proposed vendor maintenance window needs engineering review",
+          "summary": "The vendor has proposed a maintenance window for next month, but its date is not agreed. Engineering review of customer impact and the rollout plan is needed before anything is confirmed; the vendor says the proposal is not a booked outage or approved change.",
+          "evidence": [
+            {
+              "source_id": "DOC03-01",
+              "quote": "We're proposing a maintenance window for next month. The exact date hasn't been agreed with NIG yet."
+            },
+            {
+              "source_id": "DOC03-01",
+              "quote": "Before we confirm anything, we need the engineering teams to review customer impact and the rollout plan."
+            },
+            {
+              "source_id": "DOC03-01",
+              "quote": "Please treat it as a proposal, not a booked outage or an approved change."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        }
+      ],
+      "discussion_questions": [
+        "What analytics delay would partners consider acceptable, and what customer follow-up examples can they provide?",
+        "What customer impact and rollout considerations should engineering review for the proposed maintenance window?",
+        "What partner validation is needed before the onboarding checklist can be released?"
+      ]
+    },
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "undated_sources",
+        "message": "Some meeting dates were not supplied. Confirm that these notes belong in the selected reporting week; transcript timestamps are not calendar dates."
+      }
+    ],
+    "usage": {
+      "provider": "OpenAI",
+      "model": "gpt-6-luna",
+      "requested_model": "gpt-6-luna",
+      "latency_seconds": 8.975,
+      "input_tokens": 1392,
+      "output_tokens": 1239,
+      "cached_tokens": 0,
+      "estimated_cost_usd": 0.0007587000000000001,
+      "response_id": "resp_02fee2cbc555eb96016ac7e7ae209c87d2b17d822f174721fd",
+      "mode": "live AI",
+      "reasoning_effort": "low"
+    },
+    "elapsed_seconds": 8.983,
+    "metrics_csv": "week_start,cohort,metric,value,unit\n2026-09-21,MEP beta matched cohort,weekly_active_users,1000,users\n2026-09-28,MEP beta matched cohort,weekly_active_users,1200,users\n2026-09-21,MEP beta matched cohort,availability,99.8,%\n2026-09-28,MEP beta matched cohort,availability,99.9,%\n2026-09-21,MEP beta matched cohort,analytics_freshness,24,hours\n2026-09-28,MEP beta matched cohort,analytics_freshness,36,hours\n2026-09-21,MEP beta matched cohort,api_error_rate,0.4,%\n2026-09-28,MEP beta matched cohort,api_error_rate,0.3,%\n",
+    "input_hash": "53f355a308f025616f127b1e4a48957873217a43ea9ffb6872d5c8e7f70416b5",
+    "intake": {
+      "metrics": {
+        "filename": "platform-metrics.xlsx",
+        "sha256": "0f5780fff66e8819d09a668d80a1cb8d97c2e952b5367f401ca1dc6af3d2d781",
+        "worksheet": "Metrics",
+        "row_map": [
+          {
+            "normalized_csv_row": 2,
+            "original_row": 2
+          },
+          {
+            "normalized_csv_row": 3,
+            "original_row": 3
+          },
+          {
+            "normalized_csv_row": 4,
+            "original_row": 4
+          },
+          {
+            "normalized_csv_row": 5,
+            "original_row": 5
+          },
+          {
+            "normalized_csv_row": 6,
+            "original_row": 6
+          },
+          {
+            "normalized_csv_row": 7,
+            "original_row": 7
+          },
+          {
+            "normalized_csv_row": 8,
+            "original_row": 8
+          },
+          {
+            "normalized_csv_row": 9,
+            "original_row": 9
+          }
+        ],
+        "conversions": [
+          "Row 4: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 5: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 8: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 9: Excel percentage converted from its stored fraction to the 0–100 percentage scale."
+        ],
+        "ignored_columns": []
+      },
+      "notes": [
+        {
+          "filename": "partner-call.vtt",
+          "sha256": "51506df3421d4efcf84e61e45c6a7eec704c0ce3a74eeec7a3d96b0aff02cdb8",
+          "extracted_characters": 949,
+          "chunks": [
+            {
+              "source_id": "DOC01-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 949
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "engineering-notes.docx",
+          "sha256": "180eb012dc012ec033948488bf6127231136ad15c34785220f88cc558cc3722d",
+          "extracted_characters": 471,
+          "chunks": [
+            {
+              "source_id": "DOC02-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 471
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "vendor-call.srt",
+          "sha256": "2845984da3bfd335ebe0b3532fe1746aa3eec17fcce7d12e8c60712ef7e99bde",
+          "extracted_characters": 497,
+          "chunks": [
+            {
+              "source_id": "DOC03-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 497
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "Pasted notes.txt",
+          "sha256": "c24a2e2950763c9919cf00bacc035793eb03c239570e3c12a0b0d311c50f0967",
+          "extracted_characters": 520,
+          "chunks": [
+            {
+              "source_id": "DOC04-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 520
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        }
+      ]
+    },
+    "schema_hash": "1ecc474deea1c046dc9543a13dd42edd2e9c41fc431cfff85c553cfdd6226abd",
+    "prompt_hash": "870d8a0bc2df57257a6fb69a719cc1c276742dae301bdd97acf68a8e9fcf4cbb"
+  },
+  "Vendor": {
+    "pack": {
+      "report_type": "Vendor",
+      "label": "Weekly report from uploaded meeting material",
+      "week_start": "2026-09-28",
+      "sources": [
+        {
+          "id": "DOC01-01",
+          "kind": "context",
+          "date": null,
+          "title": "partner-call.vtt · part 1",
+          "text": "WEBVTT\n\n00:00:04.000 --> 00:00:16.000\nMaya (BD): Let's cover partner feedback for the week of 28 September. Luca, what are you hearing?\n\n00:00:17.000 --> 00:00:33.000\nLuca (Swisscom): Our partner managers are struggling to follow up with customers because the usage analytics arrive late. Fresher reporting would help. We'd also like to understand how fresh the data actually is.\n\n00:00:34.000 --> 00:00:42.000\nMaya (BD): Do we know whether that has caused lost revenue?\n\n00:00:43.000 --> 00:00:50.000\nLuca (Swisscom): No. We haven't measured any revenue loss. Please don't put a revenue number against this.\n\n00:00:51.000 --> 00:01:08.000\nSara (Vodafone): On our side, we need a clearer onboarding checklist. It's hard to see which application providers have finished each step.\n\n00:01:09.000 --> 00:01:18.000\nMaya (BD): I'll bring that request to the engineering review. We haven't agreed a delivery date or committed engineering resources for it."
+        },
+        {
+          "id": "DOC02-01",
+          "kind": "context",
+          "date": null,
+          "title": "engineering-notes.docx · part 1",
+          "text": "Engineering review notes\n\nWeek of 28 September 2026 — fictional meeting notes\n\nTokyo\n\nKen: We are investigating the analytics delay. We do not know the root cause yet. We will share our investigation findings at the next weekly meeting. No fix date has been agreed.\n\nZurich\n\nAnna: The internal review of the onboarding checklist is finished. We still need partner validation. It has not been released to partners.\n\nItem | Current position\n\nAnalytics fix date | Not agreed"
+        },
+        {
+          "id": "DOC03-01",
+          "kind": "context",
+          "date": null,
+          "title": "vendor-call.srt · part 1",
+          "text": "1\n00:00:03,000 --> 00:00:15,000\nRin (Infrastructure vendor): We're proposing a maintenance window for next month. The exact date hasn't been agreed with NIG yet.\n\n2\n00:00:16,000 --> 00:00:27,000\nMaya (BD): Before we confirm anything, we need the engineering teams to review customer impact and the rollout plan.\n\n3\n00:00:28,000 --> 00:00:42,000\nRin (Infrastructure vendor): Agreed. We'll send the proposed maintenance plan. Please treat it as a proposal, not a booked outage or an approved change."
+        },
+        {
+          "id": "DOC04-01",
+          "kind": "context",
+          "date": null,
+          "title": "Pasted notes.txt · part 1",
+          "text": "My notes for the weekly engineering review — 28 September 2026\n\nCarry-over from last week:\n- BD still needs to check what analytics delay the partners would consider acceptable.\n- Ask for a couple of real examples of the customer follow-up workflows affected.\n- I haven't received anything showing that this action is completed, so keep it open.\n\nDon't assume higher usage means extra revenue. We don't have that evidence.\nThe goal of this report is to make the conversation easier; priorities get agreed in the meeting."
+        }
+      ]
+    },
+    "metrics": [
+      {
+        "key": "weekly_active_users",
+        "label": "Weekly active users",
+        "unit": "users",
+        "previous": 1000.0,
+        "current": 1200.0,
+        "delta": 20.0,
+        "delta_kind": "relative %",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          2,
+          3
+        ]
+      },
+      {
+        "key": "availability",
+        "label": "Platform availability",
+        "unit": "%",
+        "previous": 99.8,
+        "current": 99.9,
+        "delta": 0.1,
+        "delta_kind": "percentage points",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          4,
+          5
+        ]
+      },
+      {
+        "key": "analytics_freshness",
+        "label": "Analytics delay",
+        "unit": "hours",
+        "previous": 24.0,
+        "current": 36.0,
+        "delta": 12.0,
+        "delta_kind": "hours",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          6,
+          7
+        ]
+      },
+      {
+        "key": "api_error_rate",
+        "label": "API error rate",
+        "unit": "%",
+        "previous": 0.4,
+        "current": 0.3,
+        "delta": -0.1,
+        "delta_kind": "percentage points",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          8,
+          9
+        ]
+      }
+    ],
+    "narrative": {
+      "findings": [
+        {
+          "category": "engineering update",
+          "title": "Vendor proposed a maintenance window",
+          "summary": "The vendor proposed a maintenance window for next month, but the date is not agreed and the proposal is not an approved or booked outage. NIG’s engineering teams need to review customer impact and the rollout plan before anything is confirmed.",
+          "evidence": [
+            {
+              "source_id": "DOC03-01",
+              "quote": "We're proposing a maintenance window for next month. The exact date hasn't been agreed with NIG yet."
+            },
+            {
+              "source_id": "DOC03-01",
+              "quote": "Before we confirm anything, we need the engineering teams to review customer impact and the rollout plan."
+            },
+            {
+              "source_id": "DOC03-01",
+              "quote": "Please treat it as a proposal, not a booked outage or an approved change."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        },
+        {
+          "category": "source note",
+          "title": "No vendor reliability update in the supplied call",
+          "summary": "The vendor call discusses proposed maintenance, but gives no update on infrastructure reliability.",
+          "evidence": [
+            {
+              "source_id": "DOC03-01",
+              "quote": "We're proposing a maintenance window for next month."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        }
+      ],
+      "discussion_questions": [
+        "When will the vendor provide the proposed maintenance plan, and what date is being considered?",
+        "What customer-impact and rollout-plan review is needed before NIG can respond to the proposal?"
+      ]
+    },
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "undated_sources",
+        "message": "Some meeting dates were not supplied. Confirm that these notes belong in the selected reporting week; transcript timestamps are not calendar dates."
+      }
+    ],
+    "usage": {
+      "provider": "OpenAI",
+      "model": "gpt-6-luna",
+      "requested_model": "gpt-6-luna",
+      "latency_seconds": 14.205,
+      "input_tokens": 1443,
+      "output_tokens": 633,
+      "cached_tokens": 0,
+      "estimated_cost_usd": 0.00046080000000000003,
+      "response_id": "resp_0fc09800ca50df5b016ac7e7aea5c487d2855fcd41f2edb17d",
+      "mode": "live AI",
+      "reasoning_effort": "low"
+    },
+    "elapsed_seconds": 14.213,
+    "metrics_csv": "week_start,cohort,metric,value,unit\n2026-09-21,MEP beta matched cohort,weekly_active_users,1000,users\n2026-09-28,MEP beta matched cohort,weekly_active_users,1200,users\n2026-09-21,MEP beta matched cohort,availability,99.8,%\n2026-09-28,MEP beta matched cohort,availability,99.9,%\n2026-09-21,MEP beta matched cohort,analytics_freshness,24,hours\n2026-09-28,MEP beta matched cohort,analytics_freshness,36,hours\n2026-09-21,MEP beta matched cohort,api_error_rate,0.4,%\n2026-09-28,MEP beta matched cohort,api_error_rate,0.3,%\n",
+    "input_hash": "7c803a534160dfbcb6ad7bf18d18775ad93877126fa2cbb11f309cfef399485f",
+    "intake": {
+      "metrics": {
+        "filename": "platform-metrics.xlsx",
+        "sha256": "0f5780fff66e8819d09a668d80a1cb8d97c2e952b5367f401ca1dc6af3d2d781",
+        "worksheet": "Metrics",
+        "row_map": [
+          {
+            "normalized_csv_row": 2,
+            "original_row": 2
+          },
+          {
+            "normalized_csv_row": 3,
+            "original_row": 3
+          },
+          {
+            "normalized_csv_row": 4,
+            "original_row": 4
+          },
+          {
+            "normalized_csv_row": 5,
+            "original_row": 5
+          },
+          {
+            "normalized_csv_row": 6,
+            "original_row": 6
+          },
+          {
+            "normalized_csv_row": 7,
+            "original_row": 7
+          },
+          {
+            "normalized_csv_row": 8,
+            "original_row": 8
+          },
+          {
+            "normalized_csv_row": 9,
+            "original_row": 9
+          }
+        ],
+        "conversions": [
+          "Row 4: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 5: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 8: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 9: Excel percentage converted from its stored fraction to the 0–100 percentage scale."
+        ],
+        "ignored_columns": []
+      },
+      "notes": [
+        {
+          "filename": "partner-call.vtt",
+          "sha256": "51506df3421d4efcf84e61e45c6a7eec704c0ce3a74eeec7a3d96b0aff02cdb8",
+          "extracted_characters": 949,
+          "chunks": [
+            {
+              "source_id": "DOC01-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 949
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "engineering-notes.docx",
+          "sha256": "180eb012dc012ec033948488bf6127231136ad15c34785220f88cc558cc3722d",
+          "extracted_characters": 471,
+          "chunks": [
+            {
+              "source_id": "DOC02-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 471
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "vendor-call.srt",
+          "sha256": "2845984da3bfd335ebe0b3532fe1746aa3eec17fcce7d12e8c60712ef7e99bde",
+          "extracted_characters": 497,
+          "chunks": [
+            {
+              "source_id": "DOC03-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 497
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "Pasted notes.txt",
+          "sha256": "c24a2e2950763c9919cf00bacc035793eb03c239570e3c12a0b0d311c50f0967",
+          "extracted_characters": 520,
+          "chunks": [
+            {
+              "source_id": "DOC04-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 520
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        }
+      ]
+    },
+    "schema_hash": "1ecc474deea1c046dc9543a13dd42edd2e9c41fc431cfff85c553cfdd6226abd",
+    "prompt_hash": "039a2a39e353023f0b90cf480724d2ce48aa10aed3d85455f54416862b9b58cb"
+  },
+  "Partner": {
+    "pack": {
+      "report_type": "Partner",
+      "label": "Weekly report from uploaded meeting material",
+      "week_start": "2026-09-28",
+      "sources": [
+        {
+          "id": "DOC01-01",
+          "kind": "context",
+          "date": null,
+          "title": "partner-call.vtt · part 1",
+          "text": "WEBVTT\n\n00:00:04.000 --> 00:00:16.000\nMaya (BD): Let's cover partner feedback for the week of 28 September. Luca, what are you hearing?\n\n00:00:17.000 --> 00:00:33.000\nLuca (Swisscom): Our partner managers are struggling to follow up with customers because the usage analytics arrive late. Fresher reporting would help. We'd also like to understand how fresh the data actually is.\n\n00:00:34.000 --> 00:00:42.000\nMaya (BD): Do we know whether that has caused lost revenue?\n\n00:00:43.000 --> 00:00:50.000\nLuca (Swisscom): No. We haven't measured any revenue loss. Please don't put a revenue number against this.\n\n00:00:51.000 --> 00:01:08.000\nSara (Vodafone): On our side, we need a clearer onboarding checklist. It's hard to see which application providers have finished each step.\n\n00:01:09.000 --> 00:01:18.000\nMaya (BD): I'll bring that request to the engineering review. We haven't agreed a delivery date or committed engineering resources for it."
+        },
+        {
+          "id": "DOC02-01",
+          "kind": "context",
+          "date": null,
+          "title": "engineering-notes.docx · part 1",
+          "text": "Engineering review notes\n\nWeek of 28 September 2026 — fictional meeting notes\n\nTokyo\n\nKen: We are investigating the analytics delay. We do not know the root cause yet. We will share our investigation findings at the next weekly meeting. No fix date has been agreed.\n\nZurich\n\nAnna: The internal review of the onboarding checklist is finished. We still need partner validation. It has not been released to partners.\n\nItem | Current position\n\nAnalytics fix date | Not agreed"
+        },
+        {
+          "id": "DOC03-01",
+          "kind": "context",
+          "date": null,
+          "title": "vendor-call.srt · part 1",
+          "text": "1\n00:00:03,000 --> 00:00:15,000\nRin (Infrastructure vendor): We're proposing a maintenance window for next month. The exact date hasn't been agreed with NIG yet.\n\n2\n00:00:16,000 --> 00:00:27,000\nMaya (BD): Before we confirm anything, we need the engineering teams to review customer impact and the rollout plan.\n\n3\n00:00:28,000 --> 00:00:42,000\nRin (Infrastructure vendor): Agreed. We'll send the proposed maintenance plan. Please treat it as a proposal, not a booked outage or an approved change."
+        },
+        {
+          "id": "DOC04-01",
+          "kind": "context",
+          "date": null,
+          "title": "Pasted notes.txt · part 1",
+          "text": "My notes for the weekly engineering review — 28 September 2026\n\nCarry-over from last week:\n- BD still needs to check what analytics delay the partners would consider acceptable.\n- Ask for a couple of real examples of the customer follow-up workflows affected.\n- I haven't received anything showing that this action is completed, so keep it open.\n\nDon't assume higher usage means extra revenue. We don't have that evidence.\nThe goal of this report is to make the conversation easier; priorities get agreed in the meeting."
+        }
+      ]
+    },
+    "metrics": [
+      {
+        "key": "weekly_active_users",
+        "label": "Weekly active users",
+        "unit": "users",
+        "previous": 1000.0,
+        "current": 1200.0,
+        "delta": 20.0,
+        "delta_kind": "relative %",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          2,
+          3
+        ]
+      },
+      {
+        "key": "availability",
+        "label": "Platform availability",
+        "unit": "%",
+        "previous": 99.8,
+        "current": 99.9,
+        "delta": 0.1,
+        "delta_kind": "percentage points",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          4,
+          5
+        ]
+      },
+      {
+        "key": "analytics_freshness",
+        "label": "Analytics delay",
+        "unit": "hours",
+        "previous": 24.0,
+        "current": 36.0,
+        "delta": 12.0,
+        "delta_kind": "hours",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          6,
+          7
+        ]
+      },
+      {
+        "key": "api_error_rate",
+        "label": "API error rate",
+        "unit": "%",
+        "previous": 0.4,
+        "current": 0.3,
+        "delta": -0.1,
+        "delta_kind": "percentage points",
+        "previous_period": "2026-09-21",
+        "current_period": "2026-09-28",
+        "cohort": "MEP beta matched cohort",
+        "source_rows": [
+          8,
+          9
+        ]
+      }
+    ],
+    "narrative": {
+      "findings": [
+        {
+          "category": "partner feedback",
+          "title": "Swisscom wants fresher analytics and clearer data freshness",
+          "summary": "Luca at Swisscom reports that late usage analytics make customer follow-up difficult. Swisscom would like fresher reporting and an explanation of data freshness. No revenue loss has been measured.",
+          "evidence": [
+            {
+              "source_id": "DOC01-01",
+              "quote": "Our partner managers are struggling to follow up with customers because the usage analytics arrive late. Fresher reporting would help. We'd also like to understand how fresh the data actually is."
+            },
+            {
+              "source_id": "DOC01-01",
+              "quote": "No. We haven't measured any revenue loss. Please don't put a revenue number against this."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        },
+        {
+          "category": "partner feedback",
+          "title": "Vodafone requests a clearer onboarding checklist",
+          "summary": "Sara at Vodafone says it is difficult to see which application providers have completed each onboarding step. No delivery date or engineering commitment was agreed in the discussion.",
+          "evidence": [
+            {
+              "source_id": "DOC01-01",
+              "quote": "On our side, we need a clearer onboarding checklist. It's hard to see which application providers have finished each step."
+            },
+            {
+              "source_id": "DOC01-01",
+              "quote": "We haven't agreed a delivery date or committed engineering resources for it."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        },
+        {
+          "category": "engineering update",
+          "title": "Analytics delay is under investigation; root cause and fix date are unknown",
+          "summary": "Engineering is investigating the delay and plans to share findings at the next weekly meeting. This is an investigation update, not a promised fix; no fix date is agreed.",
+          "evidence": [
+            {
+              "source_id": "DOC02-01",
+              "quote": "We are investigating the analytics delay. We do not know the root cause yet. We will share our investigation findings at the next weekly meeting. No fix date has been agreed."
+            },
+            {
+              "source_id": "DOC02-01",
+              "quote": "Analytics fix date | Not agreed"
+            }
+          ],
+          "needs_review": true,
+          "review_reason": "Root cause remains unknown and no fix date is agreed."
+        },
+        {
+          "category": "engineering update",
+          "title": "Onboarding checklist review is complete, but partner validation remains",
+          "summary": "The internal checklist review is finished, but the checklist has not been released to partners and still needs partner validation.",
+          "evidence": [
+            {
+              "source_id": "DOC02-01",
+              "quote": "The internal review of the onboarding checklist is finished. We still need partner validation. It has not been released to partners."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        },
+        {
+          "category": "open action",
+          "title": "Clarify acceptable analytics delay and collect workflow examples",
+          "summary": "The carry-over notes say BD still needs to check what delay partners would accept and request examples of affected customer follow-up workflows. The notes say there is no evidence these actions are complete.",
+          "evidence": [
+            {
+              "source_id": "DOC04-01",
+              "quote": "BD still needs to check what analytics delay the partners would consider acceptable."
+            },
+            {
+              "source_id": "DOC04-01",
+              "quote": "Ask for a couple of real examples of the customer follow-up workflows affected."
+            },
+            {
+              "source_id": "DOC04-01",
+              "quote": "I haven't received anything showing that this action is completed, so keep it open."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        },
+        {
+          "category": "risk",
+          "title": "Proposed vendor maintenance window is not agreed or approved",
+          "summary": "The infrastructure vendor proposed a window for next month, but the date is not agreed with NIG. Engineering review of customer impact and the rollout plan is needed before confirmation; the vendor says this is not a booked outage or approved change.",
+          "evidence": [
+            {
+              "source_id": "DOC03-01",
+              "quote": "We're proposing a maintenance window for next month. The exact date hasn't been agreed with NIG yet."
+            },
+            {
+              "source_id": "DOC03-01",
+              "quote": "Before we confirm anything, we need the engineering teams to review customer impact and the rollout plan."
+            },
+            {
+              "source_id": "DOC03-01",
+              "quote": "Please treat it as a proposal, not a booked outage or an approved change."
+            }
+          ],
+          "needs_review": false,
+          "review_reason": ""
+        }
+      ],
+      "discussion_questions": [
+        "What analytics delay would Swisscom and other partners consider acceptable, and what data-freshness explanation would help them?",
+        "Can partners share examples of affected customer follow-up workflows?",
+        "When can Vodafone validate the checklist, and what would it need to show for onboarding progress to be clear?"
+      ]
+    },
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "undated_sources",
+        "message": "Some meeting dates were not supplied. Confirm that these notes belong in the selected reporting week; transcript timestamps are not calendar dates."
+      }
+    ],
+    "usage": {
+      "provider": "OpenAI",
+      "model": "gpt-6-luna",
+      "requested_model": "gpt-6-luna",
+      "latency_seconds": 7.059,
+      "input_tokens": 1427,
+      "output_tokens": 898,
+      "cached_tokens": 0,
+      "estimated_cost_usd": 0.0005917,
+      "response_id": "resp_064e708ae4c0a353016ac7e7ae24b887d2ada6f8de3b5b269c",
+      "mode": "live AI",
+      "reasoning_effort": "low"
+    },
+    "elapsed_seconds": 7.067,
+    "metrics_csv": "week_start,cohort,metric,value,unit\n2026-09-21,MEP beta matched cohort,weekly_active_users,1000,users\n2026-09-28,MEP beta matched cohort,weekly_active_users,1200,users\n2026-09-21,MEP beta matched cohort,availability,99.8,%\n2026-09-28,MEP beta matched cohort,availability,99.9,%\n2026-09-21,MEP beta matched cohort,analytics_freshness,24,hours\n2026-09-28,MEP beta matched cohort,analytics_freshness,36,hours\n2026-09-21,MEP beta matched cohort,api_error_rate,0.4,%\n2026-09-28,MEP beta matched cohort,api_error_rate,0.3,%\n",
+    "input_hash": "b0a42e1e00e3974dc2c4448160e8af2b52f0ccb9e91cbb8368a1b02258c6d6a8",
+    "intake": {
+      "metrics": {
+        "filename": "platform-metrics.xlsx",
+        "sha256": "0f5780fff66e8819d09a668d80a1cb8d97c2e952b5367f401ca1dc6af3d2d781",
+        "worksheet": "Metrics",
+        "row_map": [
+          {
+            "normalized_csv_row": 2,
+            "original_row": 2
+          },
+          {
+            "normalized_csv_row": 3,
+            "original_row": 3
+          },
+          {
+            "normalized_csv_row": 4,
+            "original_row": 4
+          },
+          {
+            "normalized_csv_row": 5,
+            "original_row": 5
+          },
+          {
+            "normalized_csv_row": 6,
+            "original_row": 6
+          },
+          {
+            "normalized_csv_row": 7,
+            "original_row": 7
+          },
+          {
+            "normalized_csv_row": 8,
+            "original_row": 8
+          },
+          {
+            "normalized_csv_row": 9,
+            "original_row": 9
+          }
+        ],
+        "conversions": [
+          "Row 4: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 5: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 8: Excel percentage converted from its stored fraction to the 0–100 percentage scale.",
+          "Row 9: Excel percentage converted from its stored fraction to the 0–100 percentage scale."
+        ],
+        "ignored_columns": []
+      },
+      "notes": [
+        {
+          "filename": "partner-call.vtt",
+          "sha256": "51506df3421d4efcf84e61e45c6a7eec704c0ce3a74eeec7a3d96b0aff02cdb8",
+          "extracted_characters": 949,
+          "chunks": [
+            {
+              "source_id": "DOC01-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 949
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "engineering-notes.docx",
+          "sha256": "180eb012dc012ec033948488bf6127231136ad15c34785220f88cc558cc3722d",
+          "extracted_characters": 471,
+          "chunks": [
+            {
+              "source_id": "DOC02-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 471
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "vendor-call.srt",
+          "sha256": "2845984da3bfd335ebe0b3532fe1746aa3eec17fcce7d12e8c60712ef7e99bde",
+          "extracted_characters": 497,
+          "chunks": [
+            {
+              "source_id": "DOC03-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 497
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        },
+        {
+          "filename": "Pasted notes.txt",
+          "sha256": "c24a2e2950763c9919cf00bacc035793eb03c239570e3c12a0b0d311c50f0967",
+          "extracted_characters": 520,
+          "chunks": [
+            {
+              "source_id": "DOC04-01",
+              "extracted_text_start": 0,
+              "extracted_text_end": 520
+            }
+          ],
+          "date_provenance": "Not inferred; calendar meeting date was not provided."
+        }
+      ]
+    },
+    "schema_hash": "1ecc474deea1c046dc9543a13dd42edd2e9c41fc431cfff85c553cfdd6226abd",
+    "prompt_hash": "b865c7a1dff28680989501d4c897de90786eb797b2afd6b83d8db78ad963dc23"
+  }
+}

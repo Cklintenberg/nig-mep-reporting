@@ -1,0 +1,25 @@
+FICTIONAL DEMO DATA — NIG MEP weekly engineering review
+Report week: Monday, 28 September 2026
+BD follow-up notes recorded on 2 October 2026
+
+Partner feedback
+Swisscom wants fresher analytics so its account managers can use the figures during customer follow-up. BD has not yet agreed what delay the partner would consider acceptable.
+Vodafone wants a clearer onboarding checklist. The checklist still needs partner validation; do not describe it as approved or launched.
+
+Engineering discussion
+Tokyo engineering is investigating the analytics delay. We do not have a confirmed root cause or a fix date. Ask what evidence is still needed and when an investigation update can be shared. Do not convert an investigation update into a delivery commitment.
+
+Vendor follow-up
+The infrastructure vendor proposed maintenance for next month. Engineering must review customer impact and the rollout plan before anything is confirmed. No outage date or change approval has been agreed.
+
+Questions to bring to the meeting
+- What analytics delay is acceptable for partner customer follow-up?
+- What is the next investigation step, and who will confirm the update?
+- Which onboarding steps still need partner validation?
+- What information is needed before assessing the maintenance proposal?
+
+Commercial interpretation
+The figures show platform usage, not revenue. Higher weekly active users do not prove that sales increased or that any specific partner campaign caused the growth. No revenue impact has been measured.
+
+Previous action
+BD still needs to collect concrete examples of affected customer follow-up workflows. Keep this action open until someone confirms completion.

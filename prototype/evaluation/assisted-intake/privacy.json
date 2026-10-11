@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-09",
+  "assessment_type": "Official-policy desk review, not a security audit or empirical retention test",
+  "account_verification": "API access confirmed by synthetic calls. Billing tier, signed processing terms, training opt-out, ZDR, region and provider-side logs have NOT been independently verified in account settings.",
+  "Anthropic": {
+    "endpoint_tested": "https://api.anthropic.com/v1/messages",
+    "training": "Commercial API inputs/outputs are not used for training by default; explicit feedback or opt-in can change treatment.",
+    "retention": "Standard API deletion within 30 days, with exceptions including Files API, policy enforcement and legal requirements. Eligible ZDR arrangements require organization approval and have exceptions.",
+    "region": "No regional configuration was asserted by this benchmark. Exact processing location and any cloud-hosted alternative need contract/endpoint verification.",
+    "account_status": "ZDR and processing agreement unverified. Synthetic test only; not cleared for highly confidential partner documents.",
+    "production_condition": "Confirm organization/workspace retention setting, Haiku/model and endpoint eligibility, no-training terms, permitted processing regions and partner contractual permission before sending restricted content.",
+    "sources": [
+      ["Training policy", "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training"],
+      ["Retention policy", "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"],
+      ["ZDR eligibility", "https://privacy.claude.com/en/articles/8956058-i-have-a-zero-data-retention-agreement-with-anthropic-what-products-does-it-apply-to"],
+      ["Covered-model exceptions", "https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-covered-models"]
+    ]
+  },
+  "Gemini": {
+    "endpoint_tested": "https://generativelanguage.googleapis.com/v1beta/interactions",
+    "training": "Paid-service terms exclude product-improvement use of prompts and responses. Terms also apply paid data treatment to EEA/Switzerland/UK users. Do not infer the account's eligibility from a successful request.",
+    "retention": "This harness explicitly sets store=false to avoid persistent Interaction history. This is NOT a zero-retention guarantee: abuse-monitoring retention under API terms is separate.",
+    "region": "Developer API terms permit transient storage/caching where Google or agents have facilities. A Google Cloud deployment has separate controls/terms and was not benchmarked here.",
+    "account_status": "store=false verified in code. Paid project, ZDR and regional restrictions unverified. Not cleared for highly confidential partner documents.",
+    "production_condition": "Use an approved enterprise deployment and verify abuse-logging eligibility, interaction storage, caching, regional availability and terms. Changing endpoint requires another latency/cost/compatibility check.",
+    "sources": [
+      ["Developer API data terms", "https://ai.google.dev/gemini-api/terms"],
+      ["Interaction storage controls", "https://ai.google.dev/gemini-api/docs/interactions-overview"],
+      ["Google Cloud zero-retention controls", "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/zero-data-retention"]
+    ]
+  },
+  "Mistral": {
+    "endpoint_tested": "https://api.mistral.ai/v1/chat/completions",
+    "training": "Pay-as-you-go alone is not evidence of a training opt-out. Published controls allow opt-out; confirm actual organization configuration or negotiated terms. Training opt-out and ZDR are separate.",
+    "retention": "Standard API inputs/outputs retained for 30 rolling days for abuse monitoring, subject to exceptions. Approved ZDR covers supported stateless calls including chat completions; Files, Libraries, Conversations and other stateful services are excluded.",
+    "region": "Published policy says EU hosting by default, but some features/subprocessors can involve transfers outside the EU; a US endpoint also exists. EU hosting is not an absolute no-transfer guarantee.",
+    "account_status": "User reported pay-as-you-go. Training opt-out, ZDR and transfer restrictions unverified. Not cleared for highly confidential partner documents.",
+    "production_condition": "Confirm opt-out AND organization-approved ZDR, use covered stateless endpoints, inspect subprocessors and region, and exclude Labs models. Private hosting is an alternative requiring separate infrastructure/security evaluation.",
+    "sources": [
+      ["Training controls", "https://help.mistral.ai/en/articles/347617-do-you-use-my-user-data-to-train-your-artificial-intelligence-models"],
+      ["Retention policy", "https://legal.mistral.ai/terms/privacy-policy/"],
+      ["ZDR coverage", "https://docs.mistral.ai/admin/monitor-comply/zero-data-retention"],
+      ["Hosting and transfers", "https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data"]
+    ]
+  },
+  "prototype_boundary": "Only synthetic files used in this evaluation. No production transcripts were sent. File images were included inline rather than uploaded to provider Files APIs. No tools, web search, remote URLs, external sending or automatic provider fallback were enabled. Source-containing evidence remains locally in this project.",
+  "remaining_controls": [
+    "Enforce classification and approved-provider policy locally BEFORE any model egress; a model detecting confidentiality after upload is too late to protect that transmission.",
+    "Use enterprise SSO, tenant/partner access isolation, least privilege, managed credentials and encrypted storage/transport.",
+    "Minimize/redact content; no source content in operational logs; defined deletion for originals, outputs, backups and caches.",
+    "Restricted data that cannot leave NIG uses a separately approved private deployment or is blocked; never silently switch to another provider.",
+    "Review of downloaded artifacts remains BD responsibility. Download does not attest review or authorize distribution. Future external/API actions require destination and disclosure policies."
+  ]
+}

@@ -1,0 +1,2 @@
+DAU = 600 users. MAU = 2200 users.
+No weekly active-user measurement exists.

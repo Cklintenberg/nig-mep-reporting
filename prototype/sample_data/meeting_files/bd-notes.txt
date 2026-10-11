@@ -1,0 +1,9 @@
+My notes for the weekly engineering review — 28 September 2026
+
+Carry-over from last week:
+- BD still needs to check what analytics delay the partners would consider acceptable.
+- Ask for a couple of real examples of the customer follow-up workflows affected.
+- I haven't received anything showing that this action is completed, so keep it open.
+
+Don't assume higher usage means extra revenue. We don't have that evidence.
+The goal of this report is to make the conversation easier; priorities get agreed in the meeting.

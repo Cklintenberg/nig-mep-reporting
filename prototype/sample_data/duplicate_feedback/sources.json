@@ -1,0 +1,48 @@
+{
+  "label": "MEP weekly engineering review · fictional data",
+  "week_start": "2026-09-28",
+  "sources": [
+    {
+      "id": "P-014",
+      "kind": "partner",
+      "date": "2026-09-29",
+      "title": "Swisscom: delayed analytics",
+      "text": "Swisscom's partner manager reports that delayed usage analytics makes weekly customer follow-up difficult. The partner requests fresher reporting and an explanation of data freshness. No revenue loss has been measured."
+    },
+    {
+      "id": "P-015",
+      "kind": "partner",
+      "date": "2026-09-30",
+      "title": "Vodafone: onboarding visibility",
+      "text": "Vodafone requests a clearer checklist showing which app providers have completed onboarding. This is a request for visibility, not an agreed engineering delivery commitment."
+    },
+    {
+      "id": "ENG-042",
+      "kind": "engineering",
+      "date": "2026-10-01",
+      "title": "Tokyo: investigation in progress",
+      "text": "Tokyo engineering is investigating the analytics delay. The root cause is not confirmed. The team will share investigation findings at the next weekly meeting; no fix date has been agreed."
+    },
+    {
+      "id": "ENG-043",
+      "kind": "engineering",
+      "date": "2026-10-01",
+      "title": "Zurich: onboarding work",
+      "text": "Zurich engineering has completed an internal review of the onboarding checklist. Partner validation is still pending. The feature has not been released to partners."
+    },
+    {
+      "id": "ACT-009",
+      "kind": "action",
+      "date": "2026-09-28",
+      "title": "Previous action: validate freshness needs",
+      "text": "Open action from the previous weekly review: BD will confirm the partners' acceptable analytics delay and bring examples of affected customer workflows. Status: open; evidence of completion has not been supplied."
+    },
+    {
+      "id": "P-014-COPY",
+      "kind": "partner",
+      "date": "2026-09-29",
+      "title": "Forwarded copy of Swisscom feedback",
+      "text": "Swisscom's partner manager reports that delayed usage analytics makes weekly customer follow-up difficult. The partner requests fresher reporting and an explanation of data freshness. No revenue loss has been measured."
+    }
+  ]
+}

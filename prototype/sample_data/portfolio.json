@@ -1,0 +1,19 @@
+{
+  "label": "Illustrative MEP portfolio — entirely fictional",
+  "snapshots": [
+    {"week": "2026-08-10", "applications": 32, "customers": 210, "partners": 4, "weekly_active_users": 740, "availability": 99.7, "analytics_delay": 22},
+    {"week": "2026-08-17", "applications": 34, "customers": 226, "partners": 4, "weekly_active_users": 790, "availability": 99.8, "analytics_delay": 22},
+    {"week": "2026-08-24", "applications": 37, "customers": 243, "partners": 4, "weekly_active_users": 830, "availability": 99.85, "analytics_delay": 20},
+    {"week": "2026-08-31", "applications": 39, "customers": 252, "partners": 4, "weekly_active_users": 900, "availability": 99.9, "analytics_delay": 24},
+    {"week": "2026-09-07", "applications": 42, "customers": 270, "partners": 4, "weekly_active_users": 940, "availability": 99.85, "analytics_delay": 24},
+    {"week": "2026-09-14", "applications": 43, "customers": 281, "partners": 4, "weekly_active_users": 980, "availability": 99.9, "analytics_delay": 22},
+    {"week": "2026-09-21", "applications": 45, "customers": 292, "partners": 4, "weekly_active_users": 1000, "availability": 99.8, "analytics_delay": 24},
+    {"week": "2026-09-28", "applications": 48, "customers": 312, "partners": 4, "weekly_active_users": 1200, "availability": 99.9, "analytics_delay": 36}
+  ],
+  "partners": [
+    {"Partner": "Swisscom", "Region": "EMEA", "Applications listed": 18, "Business customers": 96, "Follow-up": "Analytics freshness", "Owner": "Zurich BD"},
+    {"Partner": "Vodafone", "Region": "EMEA", "Applications listed": 20, "Business customers": 104, "Follow-up": "Onboarding visibility", "Owner": "Zurich BD"},
+    {"Partner": "NTT", "Region": "APAC", "Applications listed": 16, "Business customers": 68, "Follow-up": "Regular review", "Owner": "Zurich BD"},
+    {"Partner": "DOCOMO", "Region": "APAC", "Applications listed": 12, "Business customers": 44, "Follow-up": "Regular review", "Owner": "Zurich BD"}
+  ]
+}

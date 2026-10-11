@@ -1,0 +1,3729 @@
+{
+  "label": "Entirely fictional UI preview; not live business data",
+  "applications": [
+    {
+      "ID": "APP-001",
+      "Application": "Atlas Assist",
+      "Category": "Field service",
+      "Provider": "Atlas Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Analytics freshness"
+    },
+    {
+      "ID": "APP-002",
+      "Application": "Atlas Track",
+      "Category": "Logistics",
+      "Provider": "Atlas Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-003",
+      "Application": "Atlas Store",
+      "Category": "Retail",
+      "Provider": "Atlas Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-004",
+      "Application": "Atlas Team",
+      "Category": "Workforce",
+      "Provider": "Atlas Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Analytics freshness"
+    },
+    {
+      "ID": "APP-005",
+      "Application": "Atlas Insights",
+      "Category": "Analytics",
+      "Provider": "Atlas Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-006",
+      "Application": "Atlas Ledger",
+      "Category": "Finance",
+      "Provider": "Atlas Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-007",
+      "Application": "Beacon Assist",
+      "Category": "Field service",
+      "Provider": "Beacon Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-008",
+      "Application": "Beacon Track",
+      "Category": "Logistics",
+      "Provider": "Beacon Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-009",
+      "Application": "Beacon Store",
+      "Category": "Retail",
+      "Provider": "Beacon Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-010",
+      "Application": "Beacon Team",
+      "Category": "Workforce",
+      "Provider": "Beacon Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-011",
+      "Application": "Beacon Insights",
+      "Category": "Analytics",
+      "Provider": "Beacon Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-012",
+      "Application": "Beacon Ledger",
+      "Category": "Finance",
+      "Provider": "Beacon Software (fictional)",
+      "Partners": [
+        "Swisscom",
+        "DOCOMO"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-013",
+      "Application": "Cedar Assist",
+      "Category": "Field service",
+      "Provider": "Cedar Software (fictional)",
+      "Partners": [
+        "Swisscom"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-014",
+      "Application": "Cedar Track",
+      "Category": "Logistics",
+      "Provider": "Cedar Software (fictional)",
+      "Partners": [
+        "Swisscom"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-015",
+      "Application": "Cedar Store",
+      "Category": "Retail",
+      "Provider": "Cedar Software (fictional)",
+      "Partners": [
+        "Swisscom"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-016",
+      "Application": "Cedar Team",
+      "Category": "Workforce",
+      "Provider": "Cedar Software (fictional)",
+      "Partners": [
+        "Swisscom"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-017",
+      "Application": "Cedar Insights",
+      "Category": "Analytics",
+      "Provider": "Cedar Software (fictional)",
+      "Partners": [
+        "Swisscom"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-018",
+      "Application": "Cedar Ledger",
+      "Category": "Finance",
+      "Provider": "Cedar Software (fictional)",
+      "Partners": [
+        "Swisscom"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-019",
+      "Application": "Delta Assist",
+      "Category": "Field service",
+      "Provider": "Delta Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Analytics freshness"
+    },
+    {
+      "ID": "APP-020",
+      "Application": "Delta Track",
+      "Category": "Logistics",
+      "Provider": "Delta Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-021",
+      "Application": "Delta Store",
+      "Category": "Retail",
+      "Provider": "Delta Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-022",
+      "Application": "Delta Team",
+      "Category": "Workforce",
+      "Provider": "Delta Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-023",
+      "Application": "Delta Insights",
+      "Category": "Analytics",
+      "Provider": "Delta Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-024",
+      "Application": "Delta Ledger",
+      "Category": "Finance",
+      "Provider": "Delta Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-025",
+      "Application": "Evergreen Assist",
+      "Category": "Field service",
+      "Provider": "Evergreen Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-026",
+      "Application": "Evergreen Track",
+      "Category": "Logistics",
+      "Provider": "Evergreen Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-027",
+      "Application": "Evergreen Store",
+      "Category": "Retail",
+      "Provider": "Evergreen Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-028",
+      "Application": "Evergreen Team",
+      "Category": "Workforce",
+      "Provider": "Evergreen Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-029",
+      "Application": "Evergreen Insights",
+      "Category": "Analytics",
+      "Provider": "Evergreen Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-030",
+      "Application": "Evergreen Ledger",
+      "Category": "Finance",
+      "Provider": "Evergreen Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-031",
+      "Application": "Flux Assist",
+      "Category": "Field service",
+      "Provider": "Flux Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-032",
+      "Application": "Flux Track",
+      "Category": "Logistics",
+      "Provider": "Flux Software (fictional)",
+      "Partners": [
+        "Vodafone"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-033",
+      "Application": "Flux Store",
+      "Category": "Retail",
+      "Provider": "Flux Software (fictional)",
+      "Partners": [
+        "Vodafone",
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-034",
+      "Application": "Flux Team",
+      "Category": "Workforce",
+      "Provider": "Flux Software (fictional)",
+      "Partners": [
+        "Vodafone",
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-035",
+      "Application": "Flux Insights",
+      "Category": "Analytics",
+      "Provider": "Flux Software (fictional)",
+      "Partners": [
+        "Vodafone",
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-036",
+      "Application": "Flux Ledger",
+      "Category": "Finance",
+      "Provider": "Flux Software (fictional)",
+      "Partners": [
+        "Vodafone",
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-037",
+      "Application": "Harbor Assist",
+      "Category": "Field service",
+      "Provider": "Harbor Software (fictional)",
+      "Partners": [
+        "Vodafone",
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-038",
+      "Application": "Harbor Track",
+      "Category": "Logistics",
+      "Provider": "Harbor Software (fictional)",
+      "Partners": [
+        "Vodafone",
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-039",
+      "Application": "Harbor Store",
+      "Category": "Retail",
+      "Provider": "Harbor Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-040",
+      "Application": "Harbor Team",
+      "Category": "Workforce",
+      "Provider": "Harbor Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-041",
+      "Application": "Harbor Insights",
+      "Category": "Analytics",
+      "Provider": "Harbor Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-042",
+      "Application": "Harbor Ledger",
+      "Category": "Finance",
+      "Provider": "Harbor Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-043",
+      "Application": "Indigo Assist",
+      "Category": "Field service",
+      "Provider": "Indigo Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-044",
+      "Application": "Indigo Track",
+      "Category": "Logistics",
+      "Provider": "Indigo Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-045",
+      "Application": "Indigo Store",
+      "Category": "Retail",
+      "Provider": "Indigo Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-046",
+      "Application": "Indigo Team",
+      "Category": "Workforce",
+      "Provider": "Indigo Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-047",
+      "Application": "Indigo Insights",
+      "Category": "Analytics",
+      "Provider": "Indigo Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    },
+    {
+      "ID": "APP-048",
+      "Application": "Indigo Ledger",
+      "Category": "Finance",
+      "Provider": "Indigo Software (fictional)",
+      "Partners": [
+        "NTT"
+      ],
+      "Status": "Published",
+      "Review": "Routine review"
+    }
+  ],
+  "customers": [
+    {
+      "ID": "CUS-001",
+      "Customer": "Alpine Services 001",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-002",
+      "Customer": "Northstar Logistics 002",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-003",
+      "Customer": "Summit Retail 003",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-004",
+      "Customer": "Meadow Manufacturing 004",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-005",
+      "Customer": "Pacific Services 005",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-006",
+      "Customer": "Orchard Logistics 006",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-007",
+      "Customer": "Alpine Retail 007",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Beacon Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-008",
+      "Customer": "Northstar Manufacturing 008",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-009",
+      "Customer": "Summit Services 009",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Beacon Store",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-010",
+      "Customer": "Meadow Logistics 010",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-011",
+      "Customer": "Pacific Retail 011",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Beacon Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-012",
+      "Customer": "Orchard Manufacturing 012",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-013",
+      "Customer": "Alpine Services 013",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Cedar Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-014",
+      "Customer": "Northstar Logistics 014",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Cedar Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-015",
+      "Customer": "Summit Retail 015",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Cedar Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-016",
+      "Customer": "Meadow Manufacturing 016",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Cedar Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-017",
+      "Customer": "Pacific Services 017",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Cedar Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-018",
+      "Customer": "Orchard Logistics 018",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Cedar Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-019",
+      "Customer": "Alpine Retail 019",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-020",
+      "Customer": "Northstar Manufacturing 020",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-021",
+      "Customer": "Summit Services 021",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-022",
+      "Customer": "Meadow Logistics 022",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-023",
+      "Customer": "Pacific Retail 023",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-024",
+      "Customer": "Orchard Manufacturing 024",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-025",
+      "Customer": "Alpine Services 025",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Beacon Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-026",
+      "Customer": "Northstar Logistics 026",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-027",
+      "Customer": "Summit Retail 027",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Beacon Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-028",
+      "Customer": "Meadow Manufacturing 028",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-029",
+      "Customer": "Pacific Services 029",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Beacon Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-030",
+      "Customer": "Orchard Logistics 030",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-031",
+      "Customer": "Alpine Retail 031",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Cedar Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-032",
+      "Customer": "Northstar Manufacturing 032",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Cedar Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-033",
+      "Customer": "Summit Services 033",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Cedar Store",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-034",
+      "Customer": "Meadow Logistics 034",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Cedar Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-035",
+      "Customer": "Pacific Retail 035",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Cedar Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-036",
+      "Customer": "Orchard Manufacturing 036",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Cedar Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-037",
+      "Customer": "Alpine Services 037",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-038",
+      "Customer": "Northstar Logistics 038",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-039",
+      "Customer": "Summit Retail 039",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-040",
+      "Customer": "Meadow Manufacturing 040",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-041",
+      "Customer": "Pacific Services 041",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-042",
+      "Customer": "Orchard Logistics 042",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-043",
+      "Customer": "Alpine Retail 043",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Beacon Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-044",
+      "Customer": "Northstar Manufacturing 044",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-045",
+      "Customer": "Summit Services 045",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Beacon Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-046",
+      "Customer": "Meadow Logistics 046",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-047",
+      "Customer": "Pacific Retail 047",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Beacon Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-048",
+      "Customer": "Orchard Manufacturing 048",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-049",
+      "Customer": "Alpine Services 049",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Cedar Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-050",
+      "Customer": "Northstar Logistics 050",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Cedar Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-051",
+      "Customer": "Summit Retail 051",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Cedar Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-052",
+      "Customer": "Meadow Manufacturing 052",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Cedar Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-053",
+      "Customer": "Pacific Services 053",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Cedar Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-054",
+      "Customer": "Orchard Logistics 054",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Cedar Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-055",
+      "Customer": "Alpine Retail 055",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-056",
+      "Customer": "Northstar Manufacturing 056",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-057",
+      "Customer": "Summit Services 057",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Store",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-058",
+      "Customer": "Meadow Logistics 058",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-059",
+      "Customer": "Pacific Retail 059",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-060",
+      "Customer": "Orchard Manufacturing 060",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-061",
+      "Customer": "Alpine Services 061",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Beacon Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-062",
+      "Customer": "Northstar Logistics 062",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-063",
+      "Customer": "Summit Retail 063",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Beacon Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-064",
+      "Customer": "Meadow Manufacturing 064",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-065",
+      "Customer": "Pacific Services 065",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Beacon Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-066",
+      "Customer": "Orchard Logistics 066",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-067",
+      "Customer": "Alpine Retail 067",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Cedar Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-068",
+      "Customer": "Northstar Manufacturing 068",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Cedar Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-069",
+      "Customer": "Summit Services 069",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Cedar Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-070",
+      "Customer": "Meadow Logistics 070",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Cedar Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-071",
+      "Customer": "Pacific Retail 071",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Cedar Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-072",
+      "Customer": "Orchard Manufacturing 072",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Cedar Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-073",
+      "Customer": "Alpine Services 073",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-074",
+      "Customer": "Northstar Logistics 074",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-075",
+      "Customer": "Summit Retail 075",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-076",
+      "Customer": "Meadow Manufacturing 076",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-077",
+      "Customer": "Pacific Services 077",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-078",
+      "Customer": "Orchard Logistics 078",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-079",
+      "Customer": "Alpine Retail 079",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Beacon Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-080",
+      "Customer": "Northstar Manufacturing 080",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-081",
+      "Customer": "Summit Services 081",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Beacon Store",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-082",
+      "Customer": "Meadow Logistics 082",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-083",
+      "Customer": "Pacific Retail 083",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Beacon Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-084",
+      "Customer": "Orchard Manufacturing 084",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-085",
+      "Customer": "Alpine Services 085",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Cedar Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-086",
+      "Customer": "Northstar Logistics 086",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Cedar Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-087",
+      "Customer": "Summit Retail 087",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Cedar Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-088",
+      "Customer": "Meadow Manufacturing 088",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Cedar Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-089",
+      "Customer": "Pacific Services 089",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Cedar Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-090",
+      "Customer": "Orchard Logistics 090",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Cedar Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-091",
+      "Customer": "Alpine Retail 091",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-092",
+      "Customer": "Northstar Manufacturing 092",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-093",
+      "Customer": "Summit Services 093",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-094",
+      "Customer": "Meadow Logistics 094",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-095",
+      "Customer": "Pacific Retail 095",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Atlas Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-096",
+      "Customer": "Orchard Manufacturing 096",
+      "Partner": "Swisscom",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-097",
+      "Customer": "Alpine Services 097",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-098",
+      "Customer": "Northstar Logistics 098",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-099",
+      "Customer": "Summit Retail 099",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Delta Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-100",
+      "Customer": "Meadow Manufacturing 100",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Delta Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-101",
+      "Customer": "Pacific Services 101",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-102",
+      "Customer": "Orchard Logistics 102",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-103",
+      "Customer": "Alpine Retail 103",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-104",
+      "Customer": "Northstar Manufacturing 104",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-105",
+      "Customer": "Summit Services 105",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Evergreen Store",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-106",
+      "Customer": "Meadow Logistics 106",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Evergreen Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-107",
+      "Customer": "Pacific Retail 107",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-108",
+      "Customer": "Orchard Manufacturing 108",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-109",
+      "Customer": "Alpine Services 109",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-110",
+      "Customer": "Northstar Logistics 110",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-111",
+      "Customer": "Summit Retail 111",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Flux Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-112",
+      "Customer": "Meadow Manufacturing 112",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-113",
+      "Customer": "Pacific Services 113",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-114",
+      "Customer": "Orchard Logistics 114",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-115",
+      "Customer": "Alpine Retail 115",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-116",
+      "Customer": "Northstar Manufacturing 116",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-117",
+      "Customer": "Summit Services 117",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-118",
+      "Customer": "Meadow Logistics 118",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-119",
+      "Customer": "Pacific Retail 119",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Delta Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-120",
+      "Customer": "Orchard Manufacturing 120",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Delta Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-121",
+      "Customer": "Alpine Services 121",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-122",
+      "Customer": "Northstar Logistics 122",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-123",
+      "Customer": "Summit Retail 123",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-124",
+      "Customer": "Meadow Manufacturing 124",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-125",
+      "Customer": "Pacific Services 125",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Evergreen Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-126",
+      "Customer": "Orchard Logistics 126",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Evergreen Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-127",
+      "Customer": "Alpine Retail 127",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-128",
+      "Customer": "Northstar Manufacturing 128",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-129",
+      "Customer": "Summit Services 129",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-130",
+      "Customer": "Meadow Logistics 130",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-131",
+      "Customer": "Pacific Retail 131",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Flux Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-132",
+      "Customer": "Orchard Manufacturing 132",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-133",
+      "Customer": "Alpine Services 133",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-134",
+      "Customer": "Northstar Logistics 134",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-135",
+      "Customer": "Summit Retail 135",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-136",
+      "Customer": "Meadow Manufacturing 136",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-137",
+      "Customer": "Pacific Services 137",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-138",
+      "Customer": "Orchard Logistics 138",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-139",
+      "Customer": "Alpine Retail 139",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Delta Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-140",
+      "Customer": "Northstar Manufacturing 140",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Delta Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-141",
+      "Customer": "Summit Services 141",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-142",
+      "Customer": "Meadow Logistics 142",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-143",
+      "Customer": "Pacific Retail 143",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-144",
+      "Customer": "Orchard Manufacturing 144",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-145",
+      "Customer": "Alpine Services 145",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Evergreen Store",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-146",
+      "Customer": "Northstar Logistics 146",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Evergreen Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-147",
+      "Customer": "Summit Retail 147",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-148",
+      "Customer": "Meadow Manufacturing 148",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-149",
+      "Customer": "Pacific Services 149",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-150",
+      "Customer": "Orchard Logistics 150",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-151",
+      "Customer": "Alpine Retail 151",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Flux Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-152",
+      "Customer": "Northstar Manufacturing 152",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-153",
+      "Customer": "Summit Services 153",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-154",
+      "Customer": "Meadow Logistics 154",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-155",
+      "Customer": "Pacific Retail 155",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-156",
+      "Customer": "Orchard Manufacturing 156",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-157",
+      "Customer": "Alpine Services 157",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-158",
+      "Customer": "Northstar Logistics 158",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-159",
+      "Customer": "Summit Retail 159",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Delta Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-160",
+      "Customer": "Meadow Manufacturing 160",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Delta Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-161",
+      "Customer": "Pacific Services 161",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-162",
+      "Customer": "Orchard Logistics 162",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-163",
+      "Customer": "Alpine Retail 163",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-164",
+      "Customer": "Northstar Manufacturing 164",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-165",
+      "Customer": "Summit Services 165",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Evergreen Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-166",
+      "Customer": "Meadow Logistics 166",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Evergreen Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-167",
+      "Customer": "Pacific Retail 167",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-168",
+      "Customer": "Orchard Manufacturing 168",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-169",
+      "Customer": "Alpine Services 169",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-170",
+      "Customer": "Northstar Logistics 170",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-171",
+      "Customer": "Summit Retail 171",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Flux Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-172",
+      "Customer": "Meadow Manufacturing 172",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-173",
+      "Customer": "Pacific Services 173",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-174",
+      "Customer": "Orchard Logistics 174",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-175",
+      "Customer": "Alpine Retail 175",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-176",
+      "Customer": "Northstar Manufacturing 176",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-177",
+      "Customer": "Summit Services 177",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Assist",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-178",
+      "Customer": "Meadow Logistics 178",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-179",
+      "Customer": "Pacific Retail 179",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Delta Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-180",
+      "Customer": "Orchard Manufacturing 180",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Delta Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-181",
+      "Customer": "Alpine Services 181",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-182",
+      "Customer": "Northstar Logistics 182",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-183",
+      "Customer": "Summit Retail 183",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-184",
+      "Customer": "Meadow Manufacturing 184",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-185",
+      "Customer": "Pacific Services 185",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Evergreen Store",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-186",
+      "Customer": "Orchard Logistics 186",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Evergreen Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-187",
+      "Customer": "Alpine Retail 187",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Evergreen Insights",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-188",
+      "Customer": "Northstar Manufacturing 188",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Evergreen Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-189",
+      "Customer": "Summit Services 189",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-190",
+      "Customer": "Meadow Logistics 190",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-191",
+      "Customer": "Pacific Retail 191",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Flux Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-192",
+      "Customer": "Orchard Manufacturing 192",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-193",
+      "Customer": "Alpine Services 193",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Flux Insights",
+      "Stage": "Onboarding",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-194",
+      "Customer": "Northstar Logistics 194",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-195",
+      "Customer": "Summit Retail 195",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-196",
+      "Customer": "Meadow Manufacturing 196",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-197",
+      "Customer": "Pacific Services 197",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Services",
+      "Primary application": "Delta Assist",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-198",
+      "Customer": "Orchard Logistics 198",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Logistics",
+      "Primary application": "Delta Track",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-199",
+      "Customer": "Alpine Retail 199",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Retail",
+      "Primary application": "Delta Store",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-200",
+      "Customer": "Northstar Manufacturing 200",
+      "Partner": "Vodafone",
+      "Region": "EMEA",
+      "Sector": "Manufacturing",
+      "Primary application": "Delta Team",
+      "Stage": "Active",
+      "Owner": "Zurich BD"
+    },
+    {
+      "ID": "CUS-201",
+      "Customer": "Alpine Services 201",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Flux Store",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-202",
+      "Customer": "Northstar Logistics 202",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-203",
+      "Customer": "Summit Retail 203",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Flux Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-204",
+      "Customer": "Meadow Manufacturing 204",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-205",
+      "Customer": "Pacific Services 205",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-206",
+      "Customer": "Orchard Logistics 206",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-207",
+      "Customer": "Alpine Retail 207",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Harbor Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-208",
+      "Customer": "Northstar Manufacturing 208",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-209",
+      "Customer": "Summit Services 209",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Harbor Insights",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-210",
+      "Customer": "Meadow Logistics 210",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Harbor Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-211",
+      "Customer": "Pacific Retail 211",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Indigo Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-212",
+      "Customer": "Orchard Manufacturing 212",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Indigo Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-213",
+      "Customer": "Alpine Services 213",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Indigo Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-214",
+      "Customer": "Northstar Logistics 214",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Indigo Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-215",
+      "Customer": "Summit Retail 215",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Indigo Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-216",
+      "Customer": "Meadow Manufacturing 216",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Indigo Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-217",
+      "Customer": "Pacific Services 217",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Flux Store",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-218",
+      "Customer": "Orchard Logistics 218",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-219",
+      "Customer": "Alpine Retail 219",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Flux Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-220",
+      "Customer": "Northstar Manufacturing 220",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-221",
+      "Customer": "Summit Services 221",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-222",
+      "Customer": "Meadow Logistics 222",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-223",
+      "Customer": "Pacific Retail 223",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Harbor Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-224",
+      "Customer": "Orchard Manufacturing 224",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-225",
+      "Customer": "Alpine Services 225",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Harbor Insights",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-226",
+      "Customer": "Northstar Logistics 226",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Harbor Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-227",
+      "Customer": "Summit Retail 227",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Indigo Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-228",
+      "Customer": "Meadow Manufacturing 228",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Indigo Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-229",
+      "Customer": "Pacific Services 229",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Indigo Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-230",
+      "Customer": "Orchard Logistics 230",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Indigo Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-231",
+      "Customer": "Alpine Retail 231",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Indigo Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-232",
+      "Customer": "Northstar Manufacturing 232",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Indigo Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-233",
+      "Customer": "Summit Services 233",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Flux Store",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-234",
+      "Customer": "Meadow Logistics 234",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-235",
+      "Customer": "Pacific Retail 235",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Flux Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-236",
+      "Customer": "Orchard Manufacturing 236",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-237",
+      "Customer": "Alpine Services 237",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-238",
+      "Customer": "Northstar Logistics 238",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-239",
+      "Customer": "Summit Retail 239",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Harbor Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-240",
+      "Customer": "Meadow Manufacturing 240",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-241",
+      "Customer": "Pacific Services 241",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Harbor Insights",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-242",
+      "Customer": "Orchard Logistics 242",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Harbor Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-243",
+      "Customer": "Alpine Retail 243",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Indigo Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-244",
+      "Customer": "Northstar Manufacturing 244",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Indigo Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-245",
+      "Customer": "Summit Services 245",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Indigo Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-246",
+      "Customer": "Meadow Logistics 246",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Indigo Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-247",
+      "Customer": "Pacific Retail 247",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Indigo Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-248",
+      "Customer": "Orchard Manufacturing 248",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Indigo Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-249",
+      "Customer": "Alpine Services 249",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Flux Store",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-250",
+      "Customer": "Northstar Logistics 250",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-251",
+      "Customer": "Summit Retail 251",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Flux Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-252",
+      "Customer": "Meadow Manufacturing 252",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-253",
+      "Customer": "Pacific Services 253",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Harbor Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-254",
+      "Customer": "Orchard Logistics 254",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Harbor Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-255",
+      "Customer": "Alpine Retail 255",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Harbor Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-256",
+      "Customer": "Northstar Manufacturing 256",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Harbor Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-257",
+      "Customer": "Summit Services 257",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Harbor Insights",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-258",
+      "Customer": "Meadow Logistics 258",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Harbor Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-259",
+      "Customer": "Pacific Retail 259",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Indigo Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-260",
+      "Customer": "Orchard Manufacturing 260",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Indigo Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-261",
+      "Customer": "Alpine Services 261",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Indigo Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-262",
+      "Customer": "Northstar Logistics 262",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Indigo Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-263",
+      "Customer": "Summit Retail 263",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Indigo Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-264",
+      "Customer": "Meadow Manufacturing 264",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Indigo Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-265",
+      "Customer": "Pacific Services 265",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Flux Store",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-266",
+      "Customer": "Orchard Logistics 266",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Flux Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-267",
+      "Customer": "Alpine Retail 267",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Flux Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-268",
+      "Customer": "Northstar Manufacturing 268",
+      "Partner": "NTT",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Flux Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-269",
+      "Customer": "Alpine Services 269",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Atlas Assist",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-270",
+      "Customer": "Northstar Logistics 270",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-271",
+      "Customer": "Summit Retail 271",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-272",
+      "Customer": "Meadow Manufacturing 272",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-273",
+      "Customer": "Pacific Services 273",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Atlas Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-274",
+      "Customer": "Orchard Logistics 274",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-275",
+      "Customer": "Alpine Retail 275",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Beacon Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-276",
+      "Customer": "Northstar Manufacturing 276",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-277",
+      "Customer": "Summit Services 277",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Beacon Store",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-278",
+      "Customer": "Meadow Logistics 278",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-279",
+      "Customer": "Pacific Retail 279",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Beacon Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-280",
+      "Customer": "Orchard Manufacturing 280",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-281",
+      "Customer": "Alpine Services 281",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Atlas Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-282",
+      "Customer": "Northstar Logistics 282",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-283",
+      "Customer": "Summit Retail 283",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-284",
+      "Customer": "Meadow Manufacturing 284",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-285",
+      "Customer": "Pacific Services 285",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Atlas Insights",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-286",
+      "Customer": "Orchard Logistics 286",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-287",
+      "Customer": "Alpine Retail 287",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Beacon Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-288",
+      "Customer": "Northstar Manufacturing 288",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-289",
+      "Customer": "Summit Services 289",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Beacon Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-290",
+      "Customer": "Meadow Logistics 290",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-291",
+      "Customer": "Pacific Retail 291",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Beacon Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-292",
+      "Customer": "Orchard Manufacturing 292",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-293",
+      "Customer": "Alpine Services 293",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Atlas Assist",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-294",
+      "Customer": "Northstar Logistics 294",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-295",
+      "Customer": "Summit Retail 295",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-296",
+      "Customer": "Meadow Manufacturing 296",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-297",
+      "Customer": "Pacific Services 297",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Atlas Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-298",
+      "Customer": "Orchard Logistics 298",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-299",
+      "Customer": "Alpine Retail 299",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Beacon Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-300",
+      "Customer": "Northstar Manufacturing 300",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-301",
+      "Customer": "Summit Services 301",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Beacon Store",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-302",
+      "Customer": "Meadow Logistics 302",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Beacon Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-303",
+      "Customer": "Pacific Retail 303",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Beacon Insights",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-304",
+      "Customer": "Orchard Manufacturing 304",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-305",
+      "Customer": "Alpine Services 305",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Atlas Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-306",
+      "Customer": "Northstar Logistics 306",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-307",
+      "Customer": "Summit Retail 307",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Atlas Store",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-308",
+      "Customer": "Meadow Manufacturing 308",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Atlas Team",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-309",
+      "Customer": "Pacific Services 309",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Services",
+      "Primary application": "Atlas Insights",
+      "Stage": "Onboarding",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-310",
+      "Customer": "Orchard Logistics 310",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Logistics",
+      "Primary application": "Atlas Ledger",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-311",
+      "Customer": "Alpine Retail 311",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Retail",
+      "Primary application": "Beacon Assist",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    },
+    {
+      "ID": "CUS-312",
+      "Customer": "Northstar Manufacturing 312",
+      "Partner": "DOCOMO",
+      "Region": "APAC",
+      "Sector": "Manufacturing",
+      "Primary application": "Beacon Track",
+      "Stage": "Active",
+      "Owner": "APAC BD"
+    }
+  ],
+  "meetings": [
+    {
+      "Title": "Swisscom partner feedback",
+      "Date": "2026-09-28",
+      "Time": "10:00",
+      "Type": "Partner",
+      "Owner": "Zurich BD",
+      "Status": "Notes available",
+      "Notes": "Analytics arrive later than expected. Confirm an acceptable delay and collect workflow examples. No measured revenue impact has been supplied."
+    },
+    {
+      "Title": "Zurich / Tokyo engineering review",
+      "Date": "2026-09-29",
+      "Time": "09:00",
+      "Type": "Engineering",
+      "Owner": "Zurich + Tokyo",
+      "Status": "Notes available",
+      "Notes": "Analytics delay is under investigation. Root cause and fix date are not confirmed. Onboarding checklist validation is pending."
+    },
+    {
+      "Title": "Infrastructure vendor review",
+      "Date": "2026-09-30",
+      "Time": "11:00",
+      "Type": "Vendor",
+      "Owner": "Engineering",
+      "Status": "Notes available",
+      "Notes": "Vendor proposed a maintenance window next month. Timing and customer impact require engineering review; no outage is booked."
+    },
+    {
+      "Title": "Vodafone onboarding follow-up",
+      "Date": "2026-10-01",
+      "Time": "14:00",
+      "Type": "Partner",
+      "Owner": "Zurich BD",
+      "Status": "Notes available",
+      "Notes": "Partner asked for clearer onboarding steps and ownership. Gather acceptance feedback before calling the checklist complete."
+    },
+    {
+      "Title": "APAC partnership planning",
+      "Date": "2026-10-02",
+      "Time": "09:00",
+      "Type": "Partner",
+      "Owner": "APAC BD",
+      "Status": "Illustrative agenda",
+      "Notes": "Discuss NTT and DOCOMO feedback, local support needs and candidate markets. No commercial commitments are assumed."
+    },
+    {
+      "Title": "Weekly engineering readout",
+      "Date": "2026-10-02",
+      "Time": "15:00",
+      "Type": "Engineering",
+      "Owner": "BD + Engineering",
+      "Status": "Illustrative agenda",
+      "Notes": "Review platform metrics, partner feedback, open questions and evidence. Priorities and delivery commitments remain human decisions."
+    }
+  ]
+}

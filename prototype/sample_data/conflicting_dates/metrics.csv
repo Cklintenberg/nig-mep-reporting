@@ -1,0 +1,9 @@
+week_start,cohort,metric,value,unit
+2026-09-21,MEP beta matched cohort,weekly_active_users,1000,users
+2026-09-28,MEP beta matched cohort,weekly_active_users,1200,users
+2026-09-21,MEP beta matched cohort,availability,99.8,%
+2026-09-28,MEP beta matched cohort,availability,99.9,%
+2026-09-21,MEP beta matched cohort,analytics_freshness,24,hours
+2026-09-28,MEP beta matched cohort,analytics_freshness,36,hours
+2026-09-21,MEP beta matched cohort,api_error_rate,0.4,%
+2026-09-28,MEP beta matched cohort,api_error_rate,0.3,%

@@ -1,0 +1,16 @@
+{
+  "headline": "Gemini leads this intake suite; production approval remains open",
+  "recommendation": "Recommend Gemini 3.8 Flash for the next assisted-intake build, subject to an approved confidential-data deployment and reliability work. It passed every check on 117 of 120 attempts, including all 30 holdout calls; three development calls timed out. Haiku is a credible lower-cost alternative, mainly limited by reference handling and precision. Mistral Small 4 is not recommended for unattended normalization with this configuration because of substantive value errors. This is a conditional engineering choice, not production clearance.",
+  "preferred_candidate": "gemini-3.8-flash",
+  "production_eligible": false,
+  "implemented_in_prototype": false,
+  "conditions": [
+    "Quality versus availability: Gemini returned 221/221 correct field decisions and passed 117/120 full cases. Three 75-second timeouts count as failed attempts; p95 latency was 22.38 seconds. Test bounded same-provider retries, background jobs and useful failure messages before deployment. Retry cost and success were not measured.",
+    "Haiku passed 112/120 cases at $0.38 per 1,000 test-sized intakes, versus Gemini at $1.45. Its three strict numeric mismatches were rounding (80 minutes to 1.3333 hours), not substantive inventions. Unknown reference IDs and one inconsistent field status also failed checks. Move arithmetic to code, constrain reference IDs and define business precision, then retest on new held-out documents before considering a cheaper default.",
+    "Mistral was fastest and cheapest ($0.24 per 1,000) but produced 18 substantive incorrect values; 17 affected outputs still passed the mechanical validator. Do not trade trustworthy figures for small token savings. A different prompt/model or private deployment would require a new comparison.",
+    "Business scale: 100,000 intakes at this exact synthetic mix imply about $145 for Gemini tokens at current rates, versus $38 for Haiku. Published Gemini rates double from January 2027, implying about $290 for the same mix. These are planning extrapolations, not full-report or production bills; bigger documents, scans, retries, OCR, hosting, security and maintenance add cost.",
+    "Use deterministic parsing first and assisted intake only when normalization is needed. Request raw values, units and source IDs, perform conversions in code and preserve provenance. Validate or omit uncertain fields automatically; do not silently invent values and do not add a BD mapping-confirmation screen.",
+    "Before confidential use: verify no-training terms, actual retention/ZDR settings, permitted processing regions, partner restrictions and source permissions on the exact account and endpoint. Classify before egress, minimize content, protect local storage and disallow unapproved cross-provider fallback. A new enterprise endpoint needs another compatibility/performance check.",
+    "Keep the current reporting prototype unchanged. This separate benchmark does not establish complete narrative preservation, enterprise OCR quality, actual deletion or protection against all leaks. Independent human review of gold answers and a broader representative validation set remain pending."
+  ]
+}

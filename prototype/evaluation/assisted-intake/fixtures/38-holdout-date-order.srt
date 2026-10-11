@@ -1,0 +1,4 @@
+Partner: could you deliver 2026-10-19?
+Engineer: delivery is committed for 2026-10-22.
+BD: open action; not completed.
+Meeting date 2026-10-01.

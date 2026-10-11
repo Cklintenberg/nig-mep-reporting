@@ -1,0 +1,15 @@
+{
+  "provider": "Gemini",
+  "requested_model": "gemini-3.8-flash",
+  "case": "28-rotated-scan",
+  "split": "development",
+  "trial": 1,
+  "phase": "development",
+  "started_at": "2026-10-09T21:12:51.927520+00:00",
+  "input_hash": "9917f2eff2cf4f8edcde2d6326208e09a7e7907921ceae4428a4e9367b169ec3",
+  "prompt_hash": "207307ee608f53d18007befbaeddf9603f6d185cbfd0d4f51c2de06f3261c51b",
+  "schema_hash": "935a9489bdfc8bc9f5939018c9335b4daf4b7bbc6ecc78b33656be36f8b670b2",
+  "status": "failed",
+  "error": "Gemini network request failed or timed out. No automatic retry was made.",
+  "latency_seconds": 75.064
+}

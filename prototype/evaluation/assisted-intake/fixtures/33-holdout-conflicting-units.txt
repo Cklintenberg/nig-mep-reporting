@@ -1,0 +1,2 @@
+EMEA current analytics delay: 24 hours.
+Same report: current analytics delay 24 minutes. No correction or authoritative value supplied.

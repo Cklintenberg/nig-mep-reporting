@@ -1,0 +1,11 @@
+1
+00:00:03,000 --> 00:00:15,000
+Rin (Infrastructure vendor): We're proposing a maintenance window for next month. The exact date hasn't been agreed with NIG yet.
+
+2
+00:00:16,000 --> 00:00:27,000
+Maya (BD): Before we confirm anything, we need the engineering teams to review customer impact and the rollout plan.
+
+3
+00:00:28,000 --> 00:00:42,000
+Rin (Infrastructure vendor): Agreed. We'll send the proposed maintenance plan. Please treat it as a proposal, not a booked outage or an approved change.

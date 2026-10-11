@@ -1,0 +1,9 @@
+{
+  "name": "mep-report-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic editable PowerPoint export for the NIG case study",
+  "engines": { "node": ">=20" },
+  "dependencies": { "pptxgenjs": "4.0.1" }
+}

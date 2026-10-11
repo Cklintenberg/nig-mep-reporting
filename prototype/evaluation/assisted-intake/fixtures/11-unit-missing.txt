@@ -1,0 +1,2 @@
+Analytics delay: 36. Unit not recorded.
+API error rate: 0.2. Fraction or percent is unspecified.

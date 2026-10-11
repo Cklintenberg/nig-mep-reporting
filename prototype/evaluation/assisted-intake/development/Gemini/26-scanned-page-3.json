@@ -1,0 +1,15 @@
+{
+  "provider": "Gemini",
+  "requested_model": "gemini-3.8-flash",
+  "case": "26-scanned-page",
+  "split": "development",
+  "trial": 3,
+  "phase": "development",
+  "started_at": "2026-10-09T21:19:34.556567+00:00",
+  "input_hash": "30205b24dbb2b21c15460084d17880083133c9d29b1867b786ebb1ea3ae8b2a3",
+  "prompt_hash": "207307ee608f53d18007befbaeddf9603f6d185cbfd0d4f51c2de06f3261c51b",
+  "schema_hash": "935a9489bdfc8bc9f5939018c9335b4daf4b7bbc6ecc78b33656be36f8b670b2",
+  "status": "failed",
+  "error": "Gemini network request failed or timed out. No automatic retry was made.",
+  "latency_seconds": 75.06
+}

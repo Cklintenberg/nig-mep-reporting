@@ -1,0 +1,9 @@
+outlook: https://res.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/outlook_48x1.svg
+excel: https://res.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/excel_48x1.svg
+word: https://res.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/word_48x1.svg
+powerpoint: https://res.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/powerpoint_48x1.svg
+jira: https://cdn.jsdelivr.net/npm/@iconify-json/logos@1.2.10/icons.json (jira icon)
+Existing Teams, SharePoint and OneDrive assets: ../integrations/; provenance in prototype/README.md.
+Logos identify tools in the fictional scenario; no endorsement or active integration is implied.
+
+Claude, Gemini, Mistral: https://cdn.jsdelivr.net/npm/@iconify-json/logos@1.2.10/icons.json (claude-icon, google-gemini, mistral-ai-icon).

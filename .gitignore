@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+.DS_Store
+prototype/runs/
+prototype/.local/
+prototype/presentation/runtime.local.json
+*.log
